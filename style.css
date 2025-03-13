@@ -1,0 +1,53 @@
+body{
+    background-color: brown;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .container{
+    display: flex;
+    justify-content: center;
+ }
+
+ form{
+    height: 200px;
+    width: 200px;
+    background-color: coral;
+    border-radius: 8px;
+    
+ }
+
+ input[type=text]{
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 15px;
+    
+ }
+
+ button{
+    height: 30px; 
+    margin-top: 30px;
+    margin-left: 68px;
+    
+ }
+
+ button:hover{
+    transform: scale(1.1);
+    text-transform: uppercase;
+ }
+
+ form:hover{
+    transform: scale(1.1);
+ }
+
+
+ 
+
+ 
+
